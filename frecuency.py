@@ -1,7 +1,7 @@
-test_dict = {'Codingal' : 2, 'is' : 2, 'best' : 2, 'for' : 2, 'Coding': 1}
+test_dict = {'Codingal' : 4, 'is' : 4, 'best' : 4, 'for' : 4, 'Coding': 3}
 print("the original dictionary : " + str(test_dict))
-k = 2
-res = 0
+k = 4
+res = 2
 for key in test_dict:
     if test_dict[key] == k:
         res = res +1
